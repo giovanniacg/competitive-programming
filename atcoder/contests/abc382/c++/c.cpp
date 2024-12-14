@@ -48,7 +48,8 @@ int main(){
             chosen.pb(-1);
             sushi.erase(pair.second);
         }
-            
+    
+    // Não esta chegando aqui. Pq ?????
     cout << "chosen" << endl;
     for(const auto pos : chosen)
         cout << pos << " ";
