@@ -1,0 +1,1 @@
+print(f"{input()[0]}UPC")
