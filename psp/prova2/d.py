@@ -1,0 +1,1 @@
+print(["Yes","No"][sum(s == t for s, t in zip(input().split(), input().split()))==1])
