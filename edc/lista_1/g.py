@@ -1,0 +1,1 @@
+print((lambda n, p: int(__import__("math").log(n, p)) )(int(input()), int(input())))

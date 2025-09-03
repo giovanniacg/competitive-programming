@@ -1,0 +1,1 @@
+print((lambda t: sorted(t[2:], reverse=True)[t[1] - 1])(list(map(int, __import__("sys").stdin.buffer.read().split()))))

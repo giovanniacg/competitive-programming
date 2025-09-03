@@ -1,0 +1,1 @@
+print((lambda i:(8 - (__import__("functools").reduce(lambda a, b: a + 1 if b == 'V' else a, [0] + i) or 9))//2)(__import__("sys").stdin.read().split()))

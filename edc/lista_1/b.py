@@ -1,0 +1,1 @@
+print((lambda n: ((n + 1) * (n + 2))//2)(int(input())))

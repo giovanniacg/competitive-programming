@@ -1,0 +1,1 @@
+print((lambda e, d: e + d if e > d else 2*(d - e))(int(input()), int(input())))

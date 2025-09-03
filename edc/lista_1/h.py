@@ -1,0 +1,1 @@
+print((lambda t: min(__import__('itertools').accumulate(map(int,t[2:]), initial=int(t[1]))))(__import__('sys').stdin.buffer.read().split()))
